@@ -1,0 +1,33 @@
+POST http://localhost:5000/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "username":"gialocne",
+    "email":"gacon123@gmail.com",
+    "password":"a@bc123",
+    "gender":"Nam"
+}
+
+###
+POST http://localhost:5000/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "username":"gialocne2",
+    "email":"gacon1234@gmail.com",
+    "password":"@abc123",
+    "gender":"Nam"
+}
+
+###
+POST http://localhost:5000/api/v1/auth/login
+Content-Type: application/json
+
+{
+    "email":"gacon123@gmail.com",
+    "password":"a@bc123"
+}
+
+
+###
+GET http://localhost:5000/api/v1/users/
